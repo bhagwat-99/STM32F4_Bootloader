@@ -1,2 +1,5 @@
-../bootloader/source/bootloader.c:8:6:TaskControlRedLed	8	static
-../bootloader/source/bootloader.c:18:6:bootloader_main	8	static
+../bootloader/source/bootloader.c:22:6:Jump_to_application	16	static
+../bootloader/source/bootloader.c:32:6:bootloader_main	8	static
+../bootloader/source/bootloader.c:56:6:process_rxd_char	16	static
+../bootloader/source/bootloader.c:114:6:is_frame_ready	4	static
+../bootloader/source/bootloader.c:119:6:process_frame	16	static
