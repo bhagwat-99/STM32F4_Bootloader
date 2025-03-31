@@ -32,7 +32,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-uint8_t rcvd_byte = 0;
 
 /* USER CODE END PD */
 
@@ -209,14 +208,8 @@ void USART2_IRQHandler(void)
   /* USER CODE BEGIN USART2_IRQn 0 */
 
   /* USER CODE END USART2_IRQn 0 */
-  //HAL_UART_IRQHandler(&huart2);
+  HAL_UART_IRQHandler(&huart2);
   /* USER CODE BEGIN USART2_IRQn 1 */
-
-	rcvd_byte = huart2.Instance->DR;
-
-	//HAL_UART_Transmit(&huart2, &rcvd_byte, 1, 1000);
-
-	//process_rxd_char(rcvd_byte);
 
   /* USER CODE END USART2_IRQn 1 */
 }
