@@ -53,7 +53,8 @@ void MX_USART2_UART_Init(void)
   }
   /* USER CODE BEGIN USART2_Init 2 */
 
-  HAL_UART_Receive_IT(&huart2, &receive_byte, 1);
+  //HAL_UART_Receive_IT(&huart2, &receive_byte, 1);
+  huart2.Instance->CR1 |= (1 << 5); // receive not ready interrupt enable
   /* USER CODE END USART2_Init 2 */
 
 }

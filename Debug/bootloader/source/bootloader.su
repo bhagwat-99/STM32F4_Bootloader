@@ -1,5 +1,7 @@
-../bootloader/source/bootloader.c:22:6:Jump_to_application	16	static
-../bootloader/source/bootloader.c:32:6:bootloader_main	8	static
-../bootloader/source/bootloader.c:56:6:process_rxd_char	16	static
-../bootloader/source/bootloader.c:114:6:is_frame_ready	4	static
-../bootloader/source/bootloader.c:119:6:process_frame	16	static
+../bootloader/source/bootloader.c:29:6:Jump_to_application	16	static
+../bootloader/source/bootloader.c:39:6:bootloader_main	8	static
+../bootloader/source/bootloader.c:112:6:process_rxd_char	16	static
+../bootloader/source/bootloader.c:171:6:IsFrameReceived	4	static
+../bootloader/source/bootloader.c:178:6:VerifyFrame	4	static
+../bootloader/source/bootloader.c:193:6:BL_eraseApp	40	static
+../bootloader/source/bootloader.c:217:6:BL_VerifyApplication	4	static
